@@ -87,16 +87,16 @@ WSGI_APPLICATION = 'nacoss_biu.wsgi.application'
 # https://docs.djangoproject.com/en/1.8/ref/settings/#databases
 
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'nacoss_biu',
-        'USER': 'nacoss_biu',
-        'PASSWORD': 'nacoss2017',#os.environ.get("RDS_PASSWORD", None),
-        'HOST': '127.0.0.1',
-        'PORT': '3306',
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'nacoss_biu',
+#         'USER': 'nacoss_biu',
+#         'PASSWORD': 'nacoss2017',#os.environ.get("RDS_PASSWORD", None),
+#         'HOST': '127.0.0.1',
+#         'PORT': '3306',
+#     }
+# }
 
 
 # Internationalization
