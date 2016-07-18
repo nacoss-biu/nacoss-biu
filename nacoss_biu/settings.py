@@ -98,7 +98,7 @@ WSGI_APPLICATION = 'nacoss_biu.wsgi.application'
 #         'PORT': '3306',
 #     }
 # }
-
+DATABASES = {}
 DATABASES['default'] =  dj_database_url.config()
 
 
