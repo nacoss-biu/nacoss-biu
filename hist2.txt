@@ -1,0 +1,210 @@
+    1  sudo su
+    2  sudo sulogin 
+    3  ifconffig
+    4  ifconfig
+    5  lshw -C network
+    6  ping 4.4.4.4
+    7  ping google.com
+    8  ping thecommunity.ng
+    9  man apache2
+   10  service apache2 restart 
+   11  /etc/init.d/networking restart
+   12  sulogin 
+   13  sudo su
+   14  sudo sulogin
+   15  sudo dpkg-reconfigure console
+   16  sudo dpkg-reconfigure terminal
+   17  sudo dpkg-reconfigure terminalbash
+   18  sudo dpkg-reconfigure bash
+   19  sudo nano /etc/network/interfaces
+   20  /etc/init.d/networking restart
+   21  ifconfig
+   22  sudo /etc/init.d/networking restart
+   23  ifconfig
+   24  ping thecommunity.ng
+   25  sudo nano /etc/network/interfaces
+   26  sudo /etc/init.d/networking restart
+   27  ifconfig
+   28  ls /etc/network/interfaces.d/
+   29  sudo nano /etc/network/interfaces
+   30  sudo /etc/init.d/networking restart
+   31  sudo /etc/init.d/networking status
+   32  ifconfig -a
+   33  sudo /etc/init.d/networking status
+   34  sudo /etc/init.d/networking statusman:interfaces(5)
+   35  man:interfaces(5)
+   36  man interfaces(5)
+   37  man interfaces
+   38  sudo nano /etc/network/interfaces
+   39  sudo /etc/init.d/networking restart
+   40  ifconfig
+   41  sudo /etc/init.d/networking status
+   42  sudo /etc/init.d/networking restart -v
+   43  sudo nano /etc/network/interfaces
+   44  man interfaces
+   45  ifconfig -a
+   46  sudo nano /etc/network/interfaces
+   47  ifconfig -a
+   48  sudo nano /etc/network/interfaces
+   49  sudo /etc/init.d/networking restart -v
+   50  ifconfig -a
+   51  sudo nano /etc/network/interfaces
+   52  sudo /etc/init.d/networking restart -v
+   53  ifconfig -a
+   54  sudo nano /etc/network/interfaces
+   55  sudo /etc/init.d/networking restart -v
+   56  ifconfig -a
+   57  sudo nano /etc/network/interfaces
+   58  sudo /etc/init.d/networking restart -v
+   59  systemctl status networking.service 
+   60  ifonfig
+   61  ifconfig
+   62  sudo nano /etc/network/interfaces
+   63  sudo /etc/init.d/networking restart -v
+   64  ifconfig
+   65  ifconfig -a
+   66  sudo nano /etc/network/interfaces
+   67  sudo /etc/init.d/networking restart -v
+   68  ifconfig -a
+   69  ifconfig
+   70  ifconfig -a
+   71  sudo nano /etc/network/interfaces
+   72  sudo /etc/init.d/networking restart -v
+   73  sudo /etc/init.d/networking restart
+   74  ifconfig -a
+   75  history > hist_1.txt
+   76  sudo dpkg-reconfigure console-setup
+   77  setterm linux -back black -fore green
+   78  sudo dpkg-reconfigure console-setup
+   79  setterm linux -back black -fore green 
+   80  clear
+   81  ping google.com
+   82  ifconfig
+   83  sudo nano /etc/network/interfaces
+   84  sudo /etc/init.d/networking restart
+   85  setterm linux -back black -fore green
+   86  clear
+   87  sudo /etc/init.d/networking restart
+   88  sudo nano /etc/network/interfaces
+   89  ifconfig 
+   90  ping google.com
+   91  setterm -linux -back black -fore green
+   92  setterm linux -back black -fore green -linux
+   93  setterm linux -back black -fore green --clear
+   94  setterm linux -back black -fore green -clear
+   95  setterm linux -back black -fore green
+   96  setterm linux -back black -fore green  -l
+   97  setterm linux -back black -fore green  -l | less
+   98  sudo nano /etc/network/interfaces
+   99  sudo /etc/init.d/networking restart
+  100  sudo nano /etc/network/interfaces
+  101  sudo /etc/init.d/networking restart
+  102  ifconfig 
+  103  locate enp12s0
+  104  sudo nano /etc/network/interfaces
+  105  ping 192.168.88.0
+  106  ping 192.168.88.0 -b
+  107  ifconfig
+  108  ping 192.168.88.1
+  109  sudo /etc/init.d/networking restart
+  110  sudo nano /etc/network/interfaces
+  111  sudo apt-get remove dhcp-client
+  112  sudo apt-get remove dhcp-client3
+  113  sudo apt-get remove dhcp-client
+  114  sudo apt-get remove dhclient
+  115  sudo ifconfig enp12s0 down
+  116  sudo ifconfig enp12s0 up
+  117  ifconfig
+  118  sudo nano /etc/network/interfaces
+  119  sudo init 0
+  120  ifconfig -a
+  121  sudo ifconfig enp12s0 down
+  122  ifconfig -a
+  123  history
+  124  clear;
+  125  ifconfig enp12s0 10.0.3.12 netmask 255.255.224.0 up
+  126  sudo ifconfig enp12s0 10.0.3.12 netmask 255.255.224.0 up
+  127  ifconfig -a
+  128  ping thecommunity.ng
+  129  ping google.com
+  130  sudo route add default gw 10.0.8.1 enp12s0
+  131  ping google.co
+  132  ping thecommunity.ng
+  133  sudo ifconfig enp12s0 10.0.3.8 netmask 255.255.224.0 up
+  134  ping thecommunity.ng
+  135  sudo ifconfig enp12s0 down
+  136  sudo ifconfig enp12s0 10.0.3.8 netmask 255.255.224.0 up
+  137  ping thecommunity.ng
+  138  ping 10.0.8.1
+  139  sudo route add default gw 10.0.8.1 enp12s0
+  140  ping thecommunity.ng
+  141  ifconfig
+  142  ping google.com
+  143  ping thecommunity.ng
+  144  sudo ifconfig enp12s0 10.0.3.8 netmask 255.255.224.0 uphistory
+  145  history 
+  146  history > history_1
+  147  nano history_1 
+  148  echo 'sudo ifconfig enp12s0 10.0.3.8 netmask 255.255.224.0 uphistory' > set_network.sh
+  149  cat set_network.sh 
+  150  echo 'sudo route add default gw 10.0.8.1 enp12s0' >set_network.sh 
+  151  cat set_network.sh 
+  152  echo 'sudo route add default gw 10.0.8.1 enp12s0' >set_network.sh 
+  153  sudo nano set_network.sh 
+  154  echo 'sudo route add default gw 10.0.8.1 enp12s0' >set_network.sh 
+  155  sudo nano set_network.sh 
+  156  echo 'sudo ifconfig enp12s0 10.0.3.8 netmask 255.255.224.0 uphistory' > set_network.sh
+  157  echo 'sudo ifconfig enp12s0 10.0.3.8 netmask 255.255.224.0 up' > set_network.sh
+  158  sudo nano set_network.sh 
+  159  init 0
+  160  ifconfig
+  161  sudo nano set_network.sh 
+  162  chmod 700 set_network.sh 
+  163  ls
+  164  sudo set_network.sh 
+  165  sudo ./set_network.sh 
+  166  ifconfig 
+  167  sudo nano set_network.sh 
+  168  ifconfig 
+  169  ping facebook.com
+  170  telnet towel.blinkinlight.netr
+  171  telnet towel.blinkinlight.net
+  172  telnet towel.blinkinlights.net
+  173  telnet towel.blinkinglights.net
+  174  telnet
+  175  telnet open towel.blinkinglights.net
+  176  telnet -h
+  177  telnet --help
+  178  man telnet
+  179  telnet towel.blinkinenlights.nl
+  180  telnet towel.blinkinenlight\.nl
+  181  telnet towel.blinkinenlight.nl
+  182  telnet towel.blinkenlights.nl
+  183  clear
+  184  pip
+  185  sudo apt install python-pip
+  186  pip
+  187  pip install django-spirit
+  188  sudo apt-get install libtiff5-dev libjpeg8-dev zlib1g-dev libfreetype6-dev liblcms2-dev libwebp-dev tcl8.6-dev tk8.6-dev python-tk
+  189  pip install django-spirit
+  190  pip uninstall django-spirit
+  191  ls
+  192  ls -h
+  193  ls -l
+  194  cd ..
+  195  ls
+  196  ls -l
+  197  cd nacossbiu/
+  198  ls -a
+  199  ls -al
+  200  chmod 700 nacoss_biu/ -R
+  201  ls -l
+  202  cd nacoss_biu/
+  203  ls
+  204  ./manage.py runserver
+  205  pip install python-mysql
+  206  pip install python-dev
+  207  pip install mysql-python
+  208  sudo pip install mysql-python
+  209  sudo apt-get install python-mysqldb
+  210  history > hist2.txt

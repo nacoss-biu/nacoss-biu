@@ -1,0 +1,21 @@
+{% extends 'main_app/_base.html' %}
+{% load staticfiles %}
+{% block content %}
+<div class="card-holding">
+	<div class="card">
+		<div class="heading">
+			<h1 class="text-center glow">The Notice Board</h1>
+			<p class="text-center"><img src="{%static 'notice.png' %}"></p>
+		</div>
+		<p>This is the Notice Board. Your one stop shop for all the information you need on a daily basis. Get all the official announcements and documents from the Department on the web.</p>
+	</div>
+	<br>
+	<div class="card">
+		<div class="heading">
+			<h1 class="text center glow">Timetables</h1>
+			<p class="text-center"><img src="{% static 'schedule.png' %}"></p>
+		</div>
+
+	</div>
+</div>
+<!-- {% endblock %} -->

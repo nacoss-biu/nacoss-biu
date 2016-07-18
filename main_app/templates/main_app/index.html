@@ -1,0 +1,58 @@
+{% extends "main_app/_base.html" %}
+{% load staticfiles %}
+{% block content %}
+<div class="col-12 box">
+
+<div class="card">
+	<div class="heading">
+		<h1 class="text-center glow">THIS IS NACOSS BIU!</h1>
+		<div class="u-line"></div>
+	</div>
+	<p>
+		Welcome to nacossbiu.com. The Official Website For the <a href="http://biu.edu.ng">Benson Idahosa University</a> chapter of the <a href="http://nacoss.org.ng/">National Association of Computer Science Students</a>. The aim of this website is to become the source of all information regarding events and activities of NACOSS BIU as well as provides materials and resources to help the students of the department in their everyday routines. 
+	</p>
+	</div>
+	<br/>
+
+	<div class="card">
+	<div class="heading">
+		<h1 class="text-center glow">AND WE ARE COMPS!</h1><p class="text-center"><img src="{%  static 'main_app/images/computer.png'  %}"></p>
+	</div>
+	<p>
+		We love technology! Especially Computers! We've got every aspect covered. Whether it's hardware, networking, servers,embedded systems, software, mobile programming, web development, graphics or even cinematography, we've got it covered.
+	</p>
+	</div>
+	<br/>
+
+	<div class="card">
+	<div class="heading">
+		<h1 class="text-center glow">HERE TO HELP</h1><p class="text-center"><img src="{%  static 'main_app/images/question.png'  %}"></p>
+	</div>
+	<p>
+		Whatever the problem is, don't hesitate to drop us a line. If a problem with your coursework, ask a question in the <a href="{% url 'spirit:index' %}">CSC Forum</a>, and it'll definately be solved by one of our members. If it's a more personal problem, feel free to directly message any of <a href="{% url 'main_app:team'%}">the Executive Commitee Members</a>. We've got you covered.
+	</p>
+	</div>
+	<br/>
+
+
+	<div class="heading">
+		<h2 class="text-center glow">NEWS</h2>
+		<div class="u-line"></div>
+	</div>
+	<div>
+	<ul class="list">
+		{% if news %}
+			{% for topic in news %}
+			<li>
+				<p><a class="user" href="{% url "spirit:topic:detail" topic.id topic.slug %}">{{ topic.title }}</a></p>
+			</li>
+			{% endfor %}
+		{% else %}
+			<li>
+				<p class="grey">Nothing for today</p>
+			</li>
+		{% endif %}
+	</ul>
+	</div>
+</div>
+{% endblock %}
