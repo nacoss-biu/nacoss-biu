@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/1.8/ref/settings/
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 import os
+import dj_database_url
 from spirit.settings import *
 # from zinnia.settings import *
 
@@ -97,6 +98,8 @@ WSGI_APPLICATION = 'nacoss_biu.wsgi.application'
 #         'PORT': '3306',
 #     }
 # }
+
+DATABASES['default'] =  dj_database_url.config()
 
 
 # Internationalization
