@@ -18,8 +18,8 @@ import settings
 from django.conf.urls.static import static
 
 urlpatterns = [
-	url(r'^', include('main_app.urls')),
-	url(r'^forum/', include('spirit.urls')),
+	url(r'^', include('spirit.urls')),
+	url(r'^home/', include('main_app.urls')),
 	url(r'^news/', include('news.urls')),
     url(r'^admin/', include(admin.site.urls)),
     url(r'^polls/', include('polls.urls')),
